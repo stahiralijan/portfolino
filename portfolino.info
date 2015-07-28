@@ -1,0 +1,34 @@
+name = Portfolino
+description = A personal portfolio theme for drupal from <a href="http://tahirjan.com">Syed Tahir Ali Jan</a>.
+version=1.0
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/style.css
+
+regions[main_menu] = Main Menu
+regions[content]   = Content
+
+features[] = name
+features[] = main_menu
+features[] = logo
+
+settings[small_intro] = Hello there, I'm <span>&quot;Syed Tahir Ali Jan&quot;</span>. Welcome to my design portfolio!
+settings[tags] = Nature Photographer, Desktop Programmer, and Web Designer and Developer
+settings[about_me] = Hey there, my name is &quot;Your Name&quot; and I am a photographer and web developer! This is my brand new portfolio. It's super cool because it's completely responsive! That means you can re-size it to whatever size you like and it always looks great. Have a look around and enjoy.
+settings[my_work] = Below, you will be able to find lots of my work. I take loads of pretty pictures and I also make websites. If you like what you see then you can contact me below! Maybe you would like to hire me or just have a chat, either way, I look forward to hearing from you.
+settings[perpage_thumbs] = 10
+
+settings[bg_image_1_url] = /drupal/sites/all/themes/custom/portfolino/images/intro1.jpg
+settings[bg_image_2_url] = /drupal/sites/all/themes/custom/portfolino/images/intro2.jpg
+
+settings[email_address] = john.doe@example.com
+settings[twitter_url] = http://twitter.com/johndoe
+settings[facebook_url] = http://facebook.com/johndoe
+settings[linkedin_url] = http://linkedin.com/johndoe
+settings[youtube_url] = http://linkedin.com/johndoe
+settings[gplus_url] = http://linkedin.com/johndoe
+
+settings[full_name] = Syed Tahir Ali Jan
+
+settings[footer_text] = Powered by <b><a href="http://tahirjan.com">Syed Tahir Ali Jan</a></b>
